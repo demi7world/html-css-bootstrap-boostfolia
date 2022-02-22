@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/Icon-font-7-stroke-PIXEDEN-v-1.2.0/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+<link rel="stylesheet" href="styles/Icon-font-7-stroke-PIXEDEN-v-1.2.0/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <!--   H E A D E R   A N D   N A V   -->
+   <header>
+       <nav class="navbar">
+           <div class="container">
+               <!--logo-->
+               <a href="#" class="navbar-brand brand d-flex align-items-center">
+                   <div class="brand__logo"></div>
+                   <span class="brand__name">Boostfolia</span>
+               </a>
+               <!--burger-->
+               <div class="dropdown burgerMenu">
+                <button class="dropdown-toggle burgerButton d-flex flex-column justify-content-between" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="burgerButton__stripe"></span>
+                  <span class="burgerButton__stripe"></span>
+                  <span class="burgerButton__stripe"></span>
+                </button>
+                <ul class="dropdown-menu burgerMenu__dropdown" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                </ul>
+              </div>
+           </div>
+       </nav>
+   </header>
+   <main>
+   <!--   S L I D E R   -->
+   <section class="mainSlider">
+    <div id="mainCarousel" class="mainCarousel carousel slide">
+        <div class="mainCarousel__content carousel-inner">
+          <div class="mainCarousel__item carousel-item active">
+            <div class="mainCarousel__itemPreview d-flex flex-column justify-content-center align-items-center">
+                <h2 class="mainCarousel__itemTitle">WE THINK CREATIVE BE CREATIVE</h2>
+                <p class="mainCarousel__itemDescription">LIKE TO DO CREATIVE WORKS</p>
+            </div>
+          </div>
+          <div class="mainCarousel__item carousel-item">
+            <div class="mainCarousel__itemPreview d-flex flex-column justify-content-center align-items-center">
+                <h2 class="mainCarousel__itemTitle">SECOND SLIDE BE CREATIVE</h2>
+                <p class="mainCarousel__itemDescription">LIKE TO DO CREATIVE WORKS</p>
+            </div>
+          </div>
+          <div class="mainCarousel__item carousel-item">
+            <div class="mainCarousel__itemPreview d-flex flex-column justify-content-center align-items-center">
+                <h2 class="mainCarousel__itemTitle">THIRD SLIDE BE CREATIVE</h2>
+                <p class="mainCarousel__itemDescription">LIKE TO DO CREATIVE WORKS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--scroll please-->
+      <div class="scrollTip d-flex flex-column align-items-center justify-content-center">
+        <div class="scrollTip__mouse"></div>
+        <span class="scrollTip__text">SCROLL DOWN</span>
+      </div>
+   </section>
+   <!--   A B O U T   U S   -->
+   <section class="about">
+     <div class="container">
+       <!--section heading-->
+      <div class="sectionHead d-flex flex-column align-items-center">
+        <div class="sectionHead__heading">
+         <h3 class="sectionHead__title">ABOUT US</h3>
+         <span class="sectionHead__underline d-block"></span>
+        </div>
+        <p class="sectionHead__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+      </div>
+      <!--content about us-->
+      <div class="w-100 row row-cols-3 m-0">
+        <section class="aboutItem col d-flex">
+          <a href="#" class="d-flex flex-column align-items-center">
+            <div class="aboutItem__icon aboutItem__iconDesign"></div>
+            <h4 class="aboutItem__title">CREATIVE DESIGN</h4>
+            <p class="aboutItem__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+          </a>
+        </section>
+        <section class="aboutItem col d-flex justify-content-center">
+          <a href="#" class="d-flex flex-column align-items-center">
+            <div class="aboutItem__icon aboutItem__iconPortfolio"></div>
+            <h4 class="aboutItem__title">UNIQU PORTFOLIO</h4>
+            <p class="aboutItem__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+          </a>
+        </section>
+        <section class="aboutItem col d-flex justify-content-end">
+          <a href="#" class="d-flex flex-column align-items-center">
+            <div class="aboutItem__icon aboutItem__iconUpdates"></div>
+            <h4 class="aboutItem__title">INFINITE UPDATES</h4>
+            <p class="aboutItem__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+          </a>
+        </section>
+      </div>
+     </div>
+   </section>
+   <!--   V I D E O   -->
+   <section class="video row row-cols-2 m-0 w-100">
+     <div class="video__text">
+       <h4 class="video__title">WATCH BEHIND THE SCENE</h4>
+       <p class="video__description">Lorem ipsum dolo the lorem r sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+       <button class="video__playButton">PLAY NOW</button>
+     </div>
+     <div class="p-0 d-flex justify-content-end">
+       <div class="video__box d-flex justify-content-center align-items-center">
+        <button class="video__play"></button>
+       </div>
+     </div>
+   </section>
+   <!--   O U R   W O R K S   -->
+   <section class="works">
+     <!--heading-->
+      <div class="sectionHead d-flex flex-column align-items-center">
+        <div class="sectionHead__heading">
+         <h3 class="sectionHead__title">OUR WORKS</h3>
+         <span class="sectionHead__underline d-block"></span>
+        </div>
+        <p class="sectionHead__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        </p>
+      </div>
+      <!--navigation-->
+      <nav>
+        <div class="container">
+          <ul class="works__navList d-flex justify-content-center">
+            <li class="works__navListItem"><a class="works__navLink" href="#">ALL PROJECTS</a></li>
+            <li class="works__navListItem"><a class="works__navLink" href="#">PHOTOGRAPHY</a></li>
+            <li class="works__navListItem"><a class="works__navLink" href="#">WEB DESIGN</a></li>
+            <li class="works__navListItem"><a class="works__navLink" href="#">BRANDING</a></li>
+            <li class="works__navListItem"><a class="works__navLink" href="#">MOBILE APP</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--content-->
+      <div class="w-100">
+        <div class="d-flex flex-column w-100">
+          <div class="works__row m-0 row row-cols-3 w-100">
+            <div class="works__col col"></div>
+            <div class="works__col col"></div>
+            <div class="works__col col"></div>
+          </div>
+          <div class="works__row m-0 row row-cols-3 w-100">
+            <div class="works__col col"></div>
+            <div class="works__col col"></div>
+            <div class="works__col col"></div>
+          </div>
+          <div class="works__row m-0 row row-cols-3 w-100">
+            <div class="works__col col"></div>
+            <div class="works__col col"></div>
+            <div class="works__col col"></div>
+          </div>
+      </div>
+     </div>
+   </section>
+   <!--   C L I E N T S   -->
+   <section class="clients">
+    <div id="carouselClients" class="carousel slide">
+      <div class="carousel-inner">
+        <!--first row-->
+        <div class="carousel-item active">
+          <div class="clients__row d-flex align-items-center justify-content-center">
+            <a href="#" class="clients__item d-flex align-items-center">
+              <div class="clients__logo d-flex flex-column justify-content-center">
+                <div class="clients__logoBackground"></div>
+                <img class="clients__logoImage clients__logoImageThemeforest" src="assets/img/themforest.svg" alt="themeforest">
+              </div>
+              <span class="clients__name">themeforest</span>
+            </a>
+            <a href="#" class="clients__item d-flex align-items-center">
+              <div class="clients__logo d-flex flex-column justify-content-center">
+                <div class="clients__logoBackground"></div>
+                <img class="clients__logoImage clients__logoImageGraphicriver" src="assets/img/graphicriver.svg" alt="graphicriver">
+              </div>
+              <span class="clients__name">graphicriver</span>
+            </a>
+            <a href="#" class="clients__item d-flex align-items-center">
+              <div class="clients__logo d-flex flex-column justify-content-center">
+                <div class="clients__logoBackground"></div>
+                <img class="clients__logoImage clients__logoImageVideohive" src="assets/img/videohive.svg" alt="videohive">
+              </div>
+              <span class="clients__name">videohive</span>
+            </a>
+          </div>
+        </div>
+        <!--second row-->
+        <div class="carousel-item">
+          <div class="clients__row d-flex align-items-center justify-content-center">
+            <a href="#" class="clients__item d-flex align-items-center">
+              <div class="clients__logo d-flex flex-column justify-content-center">
+                <div class="clients__logoBackground"></div>
+                <img class="clients__logoImage clients__logoImageThemeforest" src="assets/img/themforest.svg" alt="themeforest">
+              </div>
+              <span class="clients__name">themeforest</span>
+            </a>
+            <a href="#" class="clients__item d-flex align-items-center">
+              <div class="clients__logo d-flex flex-column justify-content-center">
+                <div class="clients__logoBackground"></div>
+                <img class="clients__logoImage clients__logoImageGraphicriver" src="assets/img/graphicriver.svg" alt="graphicriver">
+              </div>
+              <span class="clients__name">graphicriver</span>
+            </a>
+            <a href="#" class="clients__item d-flex align-items-center">
+              <div class="clients__logo d-flex flex-column justify-content-center">
+                <div class="clients__logoBackground"></div>
+                <img class="clients__logoImage clients__logoImageVideohive" src="assets/img/videohive.svg" alt="videohive">
+              </div>
+              <span class="clients__name">videohive</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--controls-->
+      <button class="clients__prev carousel-control-prev" type="button" data-bs-target="#carouselClients" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="clients__next carousel-control-next" type="button" data-bs-target="#carouselClients" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   </section>
+   <!--   T E A M   -->
+   <section class="team">
+     <!--heading-->
+     <div class="sectionHead d-flex flex-column align-items-center">
+      <div class="sectionHead__heading">
+       <h3 class="sectionHead__title">WHO WE ARE</h3>
+       <span class="sectionHead__underline d-block"></span>
+      </div>
+      <p class="sectionHead__description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      </p>
+    </div>
+    <!--slider-->
+    <div id="carouselTeam" class="carousel slide">
+                      <!--indicators-->
+                      <div class="carousel-indicators m-0 col-4">
+                        <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+      <div class="carousel-inner">
+        <!--first slide-->
+        <div class="carousel-item active">
+          <article class="member w-100 row m-0">
+            <!--member card-->
+            <div class="member__cardContainer h-100 col-4">
+              <div class="member__card h-100 d-flex flex-column align-items-center">
+                <div class="member__photo"></div>
+                <div class="member__name">JANE SMITH</div>
+                <div class="member__position">DESIGNER</div>
+                <div class="member__media">
+                  <a href="#" class="member__mediaLink">&#61876;</a>
+                  <a href="#" class="member__mediaLink">&#61593;</a>
+                  <a href="#" class="member__mediaLink">&#61570;</a>
+                </div>
+              </div>
+            </div>
+            <!--member skills-->
+            <div class="member__skills col-8 h-100">
+              <h5 class="member__skillsHeading">MY SKILLS</h5>
+              <p class="member__skillsDescription">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.
+              </p>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">PHOTOSHOP</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__photoshop"></div>
+                </div>
+                <span class="skillScale__percents col">88%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">ILLUSTRATOR</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__illustrator"></div>
+                </div>
+                <span class="skillScale__percents col">92%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">SKETCH</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__sketch"></div>
+                </div>
+                <span class="skillScale__percents col">90%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">AFTER EFFECTS</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__aeffects"></div>
+                </div>
+                <span class="skillScale__percents col">98%</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!--second slide-->
+        <div class="carousel-item">
+          <article class="member w-100 row m-0">
+            <!--member card-->
+            <div class="member__cardContainer h-100 col-4">
+              <div class="member__card h-100 d-flex flex-column align-items-center">
+                <div class="member__photo"></div>
+                <div class="member__name">JANE SMITH</div>
+                <div class="member__position">DESIGNER</div>
+                <div class="member__media">
+                  <a href="#" class="member__mediaLink">&#61876;</a>
+                  <a href="#" class="member__mediaLink">&#61593;</a>
+                  <a href="#" class="member__mediaLink">&#61570;</a>
+                </div>
+              </div>
+            </div>
+            <!--member skills-->
+            <div class="member__skills col-8 h-100">
+              <h4 class="member__skillsHeading">MY SKILLS</h4>
+              <p class="member__skillsDescription">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.
+              </p>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">PHOTOSHOP</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__photoshop"></div>
+                </div>
+                <span class="skillScale__percents col">88%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">ILLUSTRATOR</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__illustrator"></div>
+                </div>
+                <span class="skillScale__percents col">92%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">SKETCH</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__sketch"></div>
+                </div>
+                <span class="skillScale__percents col">90%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">AFTER EFFECTS</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__aeffects"></div>
+                </div>
+                <span class="skillScale__percents col">98%</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!--third slide-->
+        <div class="carousel-item">
+          <article class="member w-100 row m-0">
+            <!--member card-->
+            <div class="member__cardContainer h-100 col-4">
+              <div class="member__card h-100 d-flex flex-column align-items-center">
+                <div class="member__photo"></div>
+                <div class="member__name">JANE SMITH</div>
+                <div class="member__position">DESIGNER</div>
+                <div class="member__media">
+                  <a href="#" class="member__mediaLink">&#61876;</a>
+                  <a href="#" class="member__mediaLink">&#61593;</a>
+                  <a href="#" class="member__mediaLink">&#61570;</a>
+                </div>
+              </div>
+            </div>
+            <!--member skills-->
+            <div class="member__skills col-8 h-100">
+              <h5 class="member__skillsHeading">MY SKILLS</h5>
+              <p class="member__skillsDescription">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.nsectetur adipisicing elit, sed do eiusmod tempor.
+              </p>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">PHOTOSHOP</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__photoshop"></div>
+                </div>
+                <span class="skillScale__percents col">88%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">ILLUSTRATOR</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__illustrator"></div>
+                </div>
+                <span class="skillScale__percents col">92%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">SKETCH</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__sketch"></div>
+                </div>
+                <span class="skillScale__percents col">90%</span>
+              </div>
+              <!--skill stripe-->
+              <div class="skillScale row row-cols-auto align-items-center justify-content-between flex-nowrap">
+                <span class="skillScale__title col">AFTER EFFECTS</span>
+                <div class="skillScale__stripe col p-0">
+                  <div class="skillScale__fill skillScale__aeffects"></div>
+                </div>
+                <span class="skillScale__percents col">98%</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!--   F E A T U R E S   -->
+   <section class="features">
+     <div class="darkSectionHead w-100 d-flex flex-column justify-content-center align-items-center">
+       <h3 class="darkSectionHead__title">SOME FEATURES</h3>
+       <div class="darkSectionHead__underline"></div>
+     </div>
+     <div class="container">
+       <ul class="row row-cols-4 p-0 m-0">
+         <!--feature item-->
+         <li class="features__item col d-flex flex-column align-items-center">
+           <div class="features__icon features__iconShortcodes"></div>
+           <p class="features__title">Shortcodes</p>
+           <p class="features__number">46</p>
+         </li>
+         <!--feature item-->
+         <li class="features__item col d-flex flex-column align-items-center">
+          <div class="features__icon features__iconPlugins"></div>
+          <p class="features__title">Integrated Plugins</p>
+          <p class="features__number">128</p>
+        </li>
+        <!--feature item-->
+        <li class="features__item col d-flex flex-column align-items-center">
+          <div class="features__icon features__iconProducts"></div>
+          <p class="features__title">Creative Products</p>
+          <p class="features__number">450</p>
+        </li>
+        <!--feature item-->
+        <li class="features__item col d-flex flex-column align-items-center">
+          <div class="features__icon features__iconClients"></div>
+          <p class="features__title">Clients Worldwide</p>
+          <p class="features__number">100+</p>
+        </li>
+       </ul>
+     </div>
+   </section>
+   <!--   B L O G   P O S T S   -->
+   <section class="blogs">
+     <!--heading-->
+     <div class="sectionHead d-flex flex-column align-items-center">
+      <div class="sectionHead__heading">
+       <h3 class="sectionHead__title">BLOG POSTS</h3>
+       <span class="sectionHead__underline d-block"></span>
+      </div>
+      <p class="sectionHead__description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      </p>
+    </div>
+    <!--content-->
+    <div class="container">
+      <div class="row row-cols-3">
+        <!--item-->
+        <div class="col d-flex flex-column align-items-start">
+          <article class="blogpost">
+            <div class="blogpost__preview d-flex justify-content-center align-items-center">
+              <div class="d-flex">
+                <button class="blogpost__buttonLink"></button>
+                <button class="blogpost__buttonShow"></button>
+              </div>
+            </div>
+            <div class="blogpost__text">
+              <h4 class="blogpost__title">Creat Creative & Clean</h4>
+              <p class="blogpost__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="d-flex justify-content-between">
+                <span class="blogpost__date">
+                  <img src="assets/img/date.svg" alt="date">
+                  25 Jan 2015
+                </span>
+                <span class="blogpost__likesComments">
+                  <span><img src="assets/img/like.svg" alt="likes">25</span>
+                  <span><img src="assets/img/message.svg" alt="comments">11</span>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!--item-->
+        <div class="col d-flex flex-column align-items-center">
+          <article class="blogpost">
+            <div class="blogpost__preview d-flex justify-content-center align-items-center">
+              <div class="d-flex">
+                <button class="blogpost__buttonLink"></button>
+                <button class="blogpost__buttonShow"></button>
+              </div>
+            </div>
+            <div class="blogpost__text">
+              <h4 class="blogpost__title">Creat Creative & Clean</h4>
+              <p class="blogpost__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="d-flex justify-content-between">
+                <span class="blogpost__date">
+                  <img src="assets/img/date.svg" alt="date">
+                  25 Jan 2015
+                </span>
+                <span class="blogpost__likesComments">
+                  <span><img src="assets/img/like.svg" alt="likes">25</span>
+                  <span><img src="assets/img/message.svg" alt="comments">11</span>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!--item-->
+        <div class="col d-flex flex-column align-items-end">
+          <article class="blogpost">
+            <div class="blogpost__preview d-flex justify-content-center align-items-center">
+              <div class="d-flex">
+                <button class="blogpost__buttonLink"></button>
+                <button class="blogpost__buttonShow"></button>
+              </div>
+            </div>
+            <div class="blogpost__text">
+              <h4 class="blogpost__title">Creat Creative & Clean</h4>
+              <p class="blogpost__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="d-flex justify-content-between">
+                <span class="blogpost__date">
+                  <img src="assets/img/date.svg" alt="date">
+                  25 Jan 2015
+                </span>
+                <span class="blogpost__likesComments">
+                  <span><img src="assets/img/like.svg" alt="likes">25</span>
+                  <span><img src="assets/img/message.svg" alt="comments">11</span>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!--   P R I C I N G   -->
+   <section class="pricing">
+    <div class="darkSectionHead w-100 d-flex flex-column justify-content-center align-items-center">
+      <h3 class="darkSectionHead__title">CHOSE PLAN</h3>
+      <div class="darkSectionHead__underline"></div>
+    </div>
+    <div class="container">
+      <div class="row row-cols-4">
+        <!--plan item-->
+        <article class="plan col p-0">
+          <div class="plan__heading w-100 d-flex flex-column justify-content-center align-items-center">
+            <h4 class="plan__title">BASIC</h4>
+            <p class="plan__price">Free</p>
+          </div>
+          <div class="plan__contains w-100 text-center">
+            <p class="plan__advantage">
+              <b>20</b> Pages</p>
+            <p class="plan__advantage">
+                <b>2</b> GB Storage</p>
+            <p class="plan__advantage">
+              <b>150</b> Members</p>
+            <p class="plan__advantage">  
+              <b>2</b> Contributors</p>
+            <button class="plan__purchase">PURCHASE</button>
+          </div>
+        </article>
+        <!--plan item-->
+        <article class="plan col p-0">
+          <div class="plan__heading w-100 d-flex flex-column justify-content-center align-items-center">
+            <h4 class="plan__title">STANDART</h4>
+            <p class="plan__price"><b>$</b>24.00</p>
+          </div>
+          <div class="plan__contains w-100 text-center">
+            <p class="plan__advantage">
+              <b>25</b> Pages</p>
+            <p class="plan__advantage">
+                <b>10</b> GB Storage</p>
+            <p class="plan__advantage">
+              <b>300</b> Members</p>
+            <p class="plan__advantage">  
+              <b>5</b> Contributors</p>
+            <button class="plan__purchase">PURCHASE</button>
+          </div>
+        </article>
+        <!--plan item-->
+        <article class="plan col p-0">
+          <div class="plan__heading w-100 d-flex flex-column justify-content-center align-items-center">
+            <h4 class="plan__title">PREMIUM</h4>
+            <p class="plan__price"><b>$</b>40.00</p>
+          </div>
+          <div class="plan__contains w-100 text-center">
+            <p class="plan__advantage">
+              <b>30</b> Pages</p>
+            <p class="plan__advantage">
+                <b>20</b> GB Storage</p>
+            <p class="plan__advantage">
+              <b>500</b> Members</p>
+            <p class="plan__advantage">  
+              <b>10</b> Contributors</p>
+            <button class="plan__purchase">PURCHASE</button>
+          </div>
+        </article>
+        <!--plan item-->
+        <article class="plan col p-0">
+          <div class="plan__heading w-100 d-flex flex-column justify-content-center align-items-center">
+            <h4 class="plan__title">PROFESSIONAL</h4>
+            <p class="plan__price"><b>$</b>75.00</p>
+          </div>
+          <div class="plan__contains w-100 text-center">
+            <p class="plan__advantage">
+              <b>40</b> Pages</p>
+            <p class="plan__advantage">
+                <b>40</b> GB Storage</p>
+            <p class="plan__advantage">
+              <b>1000</b> Members</p>
+            <p class="plan__advantage">  
+              <b>20</b> Contributors</p>
+            <button class="plan__purchase">PURCHASE</button>
+          </div>
+        </article>
+      </div>
+    </div>
+   </section>
+   <!--   C O N T A C T   -->
+   <section class="contact">
+     <!--heading-->
+     <div class="sectionHead d-flex flex-column align-items-center">
+      <div class="sectionHead__heading">
+       <h3 class="sectionHead__title">GET IN TOUCH</h3>
+       <span class="sectionHead__underline d-block"></span>
+      </div>
+      <p class="sectionHead__description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt 
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      </p>
+    </div>
+    <!--form-->
+    <form class="contactForm">
+      <div class="row row-cols-2">
+        <div class="col">
+          <p>NAME <b>*</b></p>
+          <input type="text" required>
+        </div>
+        <div class="col">
+          <p>MAIL <b>*</b></p>
+          <input type="text" required>
+        </div>
+      </div>
+      <p>MESSAGE <b>*</b></p>
+      <input type="text" required>
+      <div class="d-flex justify-content-center p-0">
+        <button type="submit">SEND MESSAGE</button>
+      </div>
+    </form>
+   </section>
+   </main>
+   <!--   F O O T E R   -->
+   <footer class="footer">
+     <!--accordion button-->
+     <div class="accordion" id="accordionMap">
+      <div class="map accordion-item">
+        <h4 class="accordion-header" id="headingOne">
+          <button class="showMapButton accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            LOCATE ON MAP
+          </button>
+        </h4>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionMap">
+          <div class="accordion-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.5049657209042!2d25.3005133158278!3d53.88722818009597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46de8aec4c782ebb%3A0x9cee32dc9ff4a593!2z0JvQuNC00YHQutC40Lkg0LfQsNC80L7Qug!5e0!3m2!1sru!2sby!4v1624525702589!5m2!1sru!2sby" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer logo-->
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+      <img class="footer__logo" src="assets/img/Logo.svg" alt="Boostfolia logo">
+      <h5 class="footer__brandName">BOOSTFOLIA</h5>
+      <p class="footer__brandDescription">MADE WITH LOVE BY CREATIVEPRODUCT</p>
+      <span class="footer__media">
+        <a href="#" class="footer__mediaLink">&#61876;</a>
+        <a href="#" class="footer__mediaLink">&#61593;</a>
+        <a href="#" class="footer__mediaLink">&#61570;</a>
+      </span>
+    </div>
+   </footer>
+   <!--   S C R I P T S   -->
+   <script
+   src="https://code.jquery.com/jquery-3.6.0.js"
+   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+   crossorigin="anonymous"></script>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
